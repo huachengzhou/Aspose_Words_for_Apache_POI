@@ -30,13 +30,6 @@
             <!--<systemPath>${project.basedir}/lib/z-utils.jar</systemPath>-->
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.9.10</version>
-        </dependency>
-
         <!-- 日志 -->
         <!-- slf4j-api -->
         <dependency>
@@ -255,23 +248,6 @@
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
-        </dependency>
-
-        <!-- word2pdf -->
-        <dependency>
-            <groupId>com.aspose</groupId>
-            <artifactId>aspose-words</artifactId>
-            <version>15.8.0-jdk16</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/aspose-words-15.8.0-jdk16.jar</systemPath>
-        </dependency>
-        <!-- excel2pdf -->
-        <dependency>
-            <groupId>com.aspose</groupId>
-            <artifactId>aspose-cells</artifactId>
-            <version>8.5.2</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/aspose-cells-8.5.2.jar</systemPath>
         </dependency>
 
         <!-- poi start -->
